@@ -2,7 +2,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
-    "less": "^4.2.0",
+    "gulp-less": "^5.0.0",
+    "less": "^4.4.1",
     "less-watch-compiler": "^1.16.3"
   },
   "name": "site-tarik",
@@ -55,9 +56,9 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "pkg-rename":"pkg-rename",
+    "pkg-rename": "pkg-rename",
     "gulp": "gulp",
-    "less": "lessc main.less styles.css",
+    "less": " lessc main.less styles.css ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
